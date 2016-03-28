@@ -1,1 +1,82 @@
 /* CSS Entry Point */
+
+body {
+	font-family: Helvetica;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #001c3c;
+}
+
+button {
+	background:  #cb042d;
+	border: 4px solid white;
+	border-radius: 7px;
+	color: #001c3c;
+	font-size: 20px;
+	font-weight: bold;
+	height: 100px;
+	width: 250px;
+}
+
+.welcome-screen {
+	background: url('../images/f4_logo.jpg');
+	height: 720px;
+	margin: 0;
+}
+
+.game-one, .game-two, .nc-game {
+	background: url('../images/f4_logo.jpg');
+	color: white;
+	display: none;
+	font-size: 25px;
+	height: 720px;
+	margin: 0;
+}
+
+.image {
+	height: 350px;
+}
+
+.game-time {
+	height: 500px;
+	width: 1280px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.game-one-buttons, .game-two-buttons, .nc-game-buttons {
+	height: 200px;
+	width: 1280px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.g1b, .g2b, .ncb {
+	display: none;
+	margin: auto;
+}
+
+.celebrate, .watch-game-1, .watch-game-2, .watch-nc-game, .basketball-sucks {
+	margin: auto;
+	vertical-align: top;
+	margin: 0px 193px 0px 193px;
+}
+
+.welcome {
+	color: white;
+	display: none;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 0px 0px 525px 0px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.g1-special {
+	display: none;
+}
